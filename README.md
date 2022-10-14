@@ -3,5 +3,9 @@
 ## How to Use
 create container :
 ```bash
-docker-compose up -d
+npm run yarn build:to-nginx
+
+// or 
+
+yarn build:to-nginx
 ```
