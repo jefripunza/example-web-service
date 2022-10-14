@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  web-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      # setup file or folder public
+      - ../assets:/usr/share/nginx/html/assets

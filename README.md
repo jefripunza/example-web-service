@@ -3,5 +3,5 @@
 ## How to Use
 create container :
 ```bash
-npm run docker:build
+docker-compose up -d
 ```
