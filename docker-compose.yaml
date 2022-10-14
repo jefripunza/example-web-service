@@ -9,6 +9,7 @@ services:
     volumes:
       # setup file or folder public
       - ../assets:/usr/share/nginx/html/assets
+      - ./errors:/usr/share/nginx/html/errors
 networks:
   default:
     name: nginx_default
