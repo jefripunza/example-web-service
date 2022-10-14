@@ -9,3 +9,7 @@ services:
     volumes:
       # setup file or folder public
       - ../assets:/usr/share/nginx/html/assets
+networks:
+  default:
+    name: nginx_default
+    external: true
